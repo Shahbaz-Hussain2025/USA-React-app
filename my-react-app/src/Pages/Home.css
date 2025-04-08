@@ -1,0 +1,204 @@
+.home-main {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.image-home {
+  width: 884px;
+  height: 600px;
+
+}
+
+.image-home img {
+  width: 100%;
+  height: 500px;
+}
+
+.home-cont {
+  width: 600px;
+  height: 400px;
+  text-align: start;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+}
+.home-cont p{
+  margin-top: 30px;
+}
+
+.home-cont h3 {
+  font-size: 25px;
+}
+
+.home-cont h1:hover {
+  color:red;
+}
+.home-cont h3:hover {
+  color:red;
+}
+
+.home h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.home h1:hover {
+  color:gold;
+}
+
+
+.content {
+  width: 500px;
+
+  text-align: justify;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* Adds space between items */
+}
+
+.content h3 {
+  font-size: 19px;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.home-btn {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 166px;
+  height: auto;
+}
+.services {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 158px;
+  background-color: black;
+  width: 100%;
+}
+.services h1{
+  font-size: 50px;
+  color:white;
+
+}
+.services h1:hover{
+  color: gold;
+}
+.services p{
+  color:gold;
+  margin: 10px;
+}
+
+
+ /* services main css will be start */
+
+.services-main-cont{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+ .services-main{
+  width: 350px;
+  height: auto;
+  
+
+  text-align: justify;
+ }
+ .services-main h1{
+  font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+ .services-main h1:hover{
+  color: red;
+ }
+ .services-main p{
+  margin-bottom: 30px;
+ }
+ .services-main img{
+  width: 294px;
+  height: 268px;
+ }
+ .service-btn{
+  background-color: blue;
+  width: 250px;
+  padding: 18px;
+  border-radius: 33px;
+  color: white;
+ }
+.service-btn:hover{
+  color: red;
+}
+.contact{
+  background-color: rgb(221, 221, 221);
+  padding: 25px;
+}
+.contact h1{
+  color:blue;
+  margin: 30px;
+  font-size: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.contact h1:hover{
+  color:red;
+}
+.con-main {
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.con-main h3{
+  color: blue;
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn-contact{
+  background-color: blue;
+  margin-left: 40px;
+  border: none;
+  border-radius: 60px;
+  font-size: 25px;
+  padding: 9px;
+  color: white;
+  width: 150px;
+
+}
+.btn-contact:hover{
+  color: red;
+}

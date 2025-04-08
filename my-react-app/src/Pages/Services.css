@@ -1,0 +1,135 @@
+.server {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 2px;
+}
+
+.server h1 {
+  background-color: black;
+  font-size: 60px;
+  color: white;
+}
+
+.server h1:hover {
+  color: gold;
+}
+
+.services-images {
+  display: flex;
+  /* Enables flexbox */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.services-images img {
+  max-width: 100%;
+  /* Ensures the image doesn't overflow */
+  height: auto;
+}
+
+.content-service h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  margin: 30px;
+  border-radius: 40px;
+}
+
+.content-service h1:hover {
+  color: gold;
+  background-color: grey;
+}
+
+.service-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.ser-card {
+  width: 360px;
+  height: auto;
+
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: justify;
+  background-color: lightgray;
+  box-shadow: 10px 0px 10px 0px black;
+  padding: 20px;
+}
+
+.ser-card:hover {
+  transform: scale(1.05);
+  /* Slightly enlarges the card */
+  transition: 0.2s ease-in-out;
+}
+
+.ser-card h1 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.ser-card p {
+  font-size: 20px;
+  color: black;
+
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  color: blue;
+
+}
+
+
+ /* service partner  css start */
+ .rating-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+ .rating{
+  margin: 60px;
+ }
+ .rating h1{
+   color: blue;
+   font-size: 70px;
+ }
+ .rating h2{
+  color: blue;
+ }
+ .service-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-part img {
+  width: 80%;
+  height: 400px;
+  border-radius: 25px;
+}
+.service-part2 h1{
+  text-align: center;
+  color: red;
+  margin: 30px;
+}
